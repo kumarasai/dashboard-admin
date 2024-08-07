@@ -1,0 +1,66 @@
+.App {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  transition: width 0.3s;
+}
+
+.sidebar.collapsed {
+  width: 80px;
+}
+
+.sidebar-item {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar-item:hover {
+  background: #495057;
+}
+
+.sidebar-item span {
+  margin-left: 10px;
+}
+
+.sidebar-toggle {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.sidebar.collapsed .sidebar-item span {
+  display: none;
+}
+
+.dashboard {
+  flex: 1;
+  background: #f8f9fa;
+}
+
+.activity-chart {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.activity {
+  background-color: #3a3f44;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.card{
+  width:100%;
+  height:60vh;
+  
+}
+.card h5{
+  margin:30px;
+}
+
+.mb-4{
+  height:80%;
+}
